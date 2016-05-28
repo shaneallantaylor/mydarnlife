@@ -1,0 +1,72 @@
+@font-face {
+    font-family: rocksalt;
+    src: url(fonts/RockSalt.ttf);
+}
+
+body, a, a:visited, a:hover {
+  color: #2f2f2f;
+  text-decoration: none;
+}
+
+
+
+header {
+  height: 80px;
+  background-color: #fcfcfc;
+  width: 100%;
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0 4px 4px 0 rgba(0,0,0,0.3);
+  -ms-box-shadow: 0 4px 4px 0 rgba(0,0,0,0.3);
+  -moz-box-shadow: 0 4px 4px 0 rgba(0,0,0,0.3);
+  -o-box-shadow: 0 4px 4px 0 rgba(0,0,0,0.3);
+}
+
+.top-bar {
+  height: 100%;
+}
+
+.title-container {
+  font-family: 'rocksalt';
+  display: inline-block;
+  width: 200px;
+  height: 100%;
+}
+
+.site-title {
+  font-size: 22px;
+  padding: 22px;
+  margin: 0;
+  color: #2f2f2f;
+  cursor: pointer;
+  -ms-transform: skewY(-3deg); /* IE 9 */
+  -webkit-transform: skewY(-3deg); /* Safari */
+  transform: skewY(-3deg);
+  width: 190px;
+}
+
+.red-underline {
+  text-decoration: underline;
+  color: #e1445e;
+}
+
+.brand-container {
+  font-family: 'rocksalt';
+  height: 100%;
+  font-size: 12px;
+  display: inline-block;
+  float: right;
+  padding-right: 17px;
+}
+
+.brand-list {
+  padding: 0;
+  margin-top: 23px;
+}
+
+.brand-item {
+  list-style: none;
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+  vertical-align: middle;
+}
